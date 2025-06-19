@@ -5,6 +5,8 @@
 ## Quickstart
 
 ```
+mkdir db logs
+chmod 777 db logs
 docker compose up
 ```
 
