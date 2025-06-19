@@ -1,0 +1,6 @@
+apache-airflow==3.0.1
+flask_appbuilder==4.7.0
+
+# Development and testing
+pytest==8.4.0
+pytest-airflow==0.0.3
