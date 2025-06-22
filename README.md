@@ -6,7 +6,8 @@
 
 ```
 mkdir db logs
-chmod 777 db logs
+touch simple_auth_manager_passwords.json.generated
+chmod 777 db logs simple_auth_manager_passwords.json.generated
 docker compose up
 
 # Get admin password
