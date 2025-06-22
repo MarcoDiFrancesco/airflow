@@ -6,6 +6,7 @@ services:
       - ./dags:/opt/airflow/dags:ro
       - ./logs:/opt/airflow/logs
       - ./db:/opt/airflow/db
+      - ./simple_auth_manager_passwords.json.generated:/opt/airflow/simple_auth_manager_passwords.json.generated
     ports:
       - "8080:8080"
     restart: unless-stopped

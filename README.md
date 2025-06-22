@@ -8,9 +8,13 @@
 mkdir db logs
 chmod 777 db logs
 docker compose up
+
+# Get admin password
+docker exec -it airflow bash
+cat /opt/airflow/simple_auth_manager_passwords.json.generated
 ```
 
-## Setup
+## Local development
 
 Create *aiflow.cfg* using:
 
